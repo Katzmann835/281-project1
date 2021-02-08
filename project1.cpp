@@ -143,9 +143,6 @@ tracker *read_variables(){
             if(c == 'S') {
                 map->starting_location = location(room_num, room_row, room_col);
             }
-            
-            cout << "line: " << line <<
-            " and row: " << row_in_string << " and col: " << col_in_string << endl;
         }
     }
     else{
