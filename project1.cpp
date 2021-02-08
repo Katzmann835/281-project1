@@ -246,7 +246,7 @@ void runBackAlgo(tracker *map, bool map_mode){
         
     }
     else {
-        cout << "Path Taken:" << endl;
+        cout << "Path taken:" << endl;
         current_location = map->starting_location;
         location next_location;
         for(int i = (int) path.size() - 2; i >= 0; --i) {
